@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Set up vim with my personal vim-plugins
+# Author: Christopher Markieta
+
 if [[ $(id -u) -ne 0 ]]; then
     echo "Permission denied"
     echo "Root privileges are required for running $0."
@@ -8,11 +11,11 @@ fi
 
 MY_DIR=$(dirname $0)
 
+dnf install -y vim cmake
+
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 cp "$MY_DIR"/.vimrc ~/
-
-dnf install -y cmake
 
 vi -c 'PlugInstall|q|q'
