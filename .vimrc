@@ -1,3 +1,8 @@
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
