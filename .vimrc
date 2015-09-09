@@ -4,6 +4,9 @@ set shiftwidth=4
 set expandtab
 set nu
 set mouse=a
+set clipboard+=unnamedplus
+
+highlight LineNr ctermfg=grey ctermbg=white
 
 call plug#begin('~/.vim/plugged')
 
@@ -12,6 +15,8 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': 'yes \| ./install' }
 Plug 'Valloric/YouCompleteMe'
 Plug 'ervandew/supertab'
+Plug 'chrisbra/changesPlugin'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
