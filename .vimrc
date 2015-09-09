@@ -19,6 +19,7 @@ Plug 'ervandew/supertab'
 Plug 'chrisbra/changesPlugin'
 Plug 'airblade/vim-gitgutter'
 Plug 'Raimondi/delimitMate'
+Plug 'scrooloose/syntastic'
 
 call plug#end()
 
@@ -28,3 +29,13 @@ let g:SuperTabDefaultCompletionType    = '<C-n>'
 let g:UltiSnipsExpandTrigger       = "<tab>"
 let g:UltiSnipsJumpForwardTrigger  = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>" " Supertab
+
+" Syntastic syntax checking recommended settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list            = 1
+let g:syntastic_check_on_open            = 1
+let g:syntastic_check_on_wq              = 0
