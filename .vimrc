@@ -17,6 +17,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'ervandew/supertab'
 Plug 'chrisbra/changesPlugin'
 Plug 'airblade/vim-gitgutter'
+Plug 'Raimondi/delimitMate'
 
 call plug#end()
 
