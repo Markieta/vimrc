@@ -2,6 +2,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set spell spelllang=en_us
 set nu
 set mouse=a
 set clipboard+=unnamedplus
