@@ -2,6 +2,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set nu
+set mouse=a
 
 call plug#begin('~/.vim/plugged')
 
