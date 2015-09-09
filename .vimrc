@@ -7,7 +7,7 @@ set nu
 set mouse=a
 set clipboard+=unnamedplus
 
-highlight LineNr ctermfg=grey ctermbg=white
+highlight LineNr ctermfg=white ctermbg=grey
 
 call plug#begin('~/.vim/plugged')
 
