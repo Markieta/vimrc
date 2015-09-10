@@ -22,6 +22,7 @@ Plug 'chrisbra/changesPlugin'
 Plug 'airblade/vim-gitgutter'
 Plug 'Raimondi/delimitMate'
 Plug 'scrooloose/syntastic'
+Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
