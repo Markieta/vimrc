@@ -7,10 +7,10 @@ MY_DIR=$(dirname $0)
 os=$(gawk -F= '/^NAME/{print $2}' /etc/os-release | tr -d '"')
 
 if [ "$os" == "Ubuntu" ]; then
-    sudo apt-get install -y vim-gnome cmake
+    sudo apt-get install -y vim-gnome cmake python2.7-dev
 else
        # yum install for older systems
-    sudo yum install -y vim-X11 cmake
+    sudo yum install -y vim-X11 cmake python-devel gcc-c++
 fi
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
