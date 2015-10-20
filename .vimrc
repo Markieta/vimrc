@@ -9,6 +9,7 @@ set nu
 set mouse=a
 set clipboard+=unnamedplus
 set hlsearch
+hi Search cterm=NONE ctermfg=grey ctermbg=blue
 
 highlight LineNr ctermfg=white ctermbg=grey
 
