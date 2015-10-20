@@ -8,6 +8,7 @@ hi SpellBad cterm=underline,bold
 set nu
 set mouse=a
 set clipboard+=unnamedplus
+set hlsearch
 
 highlight LineNr ctermfg=white ctermbg=grey
 
