@@ -23,6 +23,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Raimondi/delimitMate'
 Plug 'scrooloose/syntastic'
 Plug 'junegunn/vim-easy-align'
+Plug 'henrik/vim-indexed-search'
 
 call plug#end()
 
